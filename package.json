@@ -1,5 +1,5 @@
 {
-  "name": "colorSchema",
+  "name": "theme-compositor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": "index.js"
 }

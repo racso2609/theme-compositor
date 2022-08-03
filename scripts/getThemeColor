@@ -1,1 +1,1 @@
-node index.js  --get-theme-color foreground
+theme-compositor --get-theme-color foreground

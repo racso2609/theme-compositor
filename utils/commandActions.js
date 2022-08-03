@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const configFiles = require("./configFiles");
 const { configFile } = require("./configFiles");
 
 const getTemplateFile = (templateUri) => {
