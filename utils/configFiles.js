@@ -7,19 +7,17 @@ const configLocations = [
 ];
 
 const defaultFile = path.join(__dirname, "../", "config.json");
+const defaultTemplateFolder = path.join(__dirname, "..", "templates");
+const defaultTemplate = "default";
 
 const validateConfigFile = (file) => {
   if (!file) {
     return "please create a config file";
   }
-  // const { folderContainer, baseString } = file;
-  // if (!baseString) return "provide a valid baseString";
 
-  // const fileExists = fs.existsSync(path.join(baseString, folderContainer));
-
-  // if (!folderContainer || !fileExists) {
-  // return "please specify the location of your pictures";
-  // }
+  const { templateFolder, activeTemplate } = file;
+  if (!templateFolder) file.templateFolder = defaultTemplateFolder;
+  if (!activeTemplate) file.activeTemplate = defaultTemplate;
 
   return false;
 };
