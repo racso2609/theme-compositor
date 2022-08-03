@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
-const appName = "themeCompositor";
+const appName = "theme-compositor";
 const configLocations = [
   `/home/${process.env.USER}/.config/${appName}/config.json`,
 ];
