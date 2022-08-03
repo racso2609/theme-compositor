@@ -1,0 +1,1 @@
+node index.js  --get-theme-color foreground
