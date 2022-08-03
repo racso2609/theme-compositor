@@ -1,3 +1,5 @@
 {
-  "foreground": "white"
+  "colors": {
+    "foreground": "white"
+  }
 }

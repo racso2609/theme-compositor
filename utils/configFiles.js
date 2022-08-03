@@ -12,14 +12,14 @@ const validateConfigFile = (file) => {
   if (!file) {
     return "please create a config file";
   }
-  const { folderContainer, baseString } = file;
-  if (!baseString) return "provide a valid baseString";
+  // const { folderContainer, baseString } = file;
+  // if (!baseString) return "provide a valid baseString";
 
-  const fileExists = fs.existsSync(path.join(baseString, folderContainer));
+  // const fileExists = fs.existsSync(path.join(baseString, folderContainer));
 
-  if (!folderContainer || !fileExists) {
-    return "please specify the location of your pictures";
-  }
+  // if (!folderContainer || !fileExists) {
+  // return "please specify the location of your pictures";
+  // }
 
   return false;
 };
