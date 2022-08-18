@@ -3,7 +3,7 @@
     "background": "#1e2127",
     "foreground": "#abb2bf",
     "black": "#1e2127",
-    "red": "#fff",
+    "red": "red",
     "green": "#98c379",
     "yellow": "#d19a66",
     "blue": "#61afef",
