@@ -1,4 +1,4 @@
-import fs from "fs";
+const fs = require("fs");
 const path = require("path");
 const { configFile } = require("./configFiles");
 
@@ -13,7 +13,8 @@ const getThemeColor = (colorName) => {
     configFile.activeTemplate + ".json"
   );
   const templateFile = getTemplateFile(templateUri);
-  return templateFile[colorName];
+  const colorId = templateFile[colorName];
+  return templateFile.palette[colorId];
 };
 
 const getTheme = () => {
@@ -31,6 +32,6 @@ const actionsMethods = {
   getTheme,
 };
 
-export default config = {
+module.exports = {
   actionsMethods,
 };

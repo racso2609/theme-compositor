@@ -29,7 +29,7 @@ const manageArguments = () => {
   return formatArgs;
 };
 
-export default config = {
+module.exports = {
   availableFlags,
   actions: manageArguments(),
 };
