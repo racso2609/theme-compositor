@@ -4,6 +4,11 @@ const availableFlags = {
     symbol: "--get-theme-color",
     description: "receive a color and retrieve the hex value",
   },
+  "--get-theme": {
+    name: "getTheme",
+    symbol: "--get-theme",
+    description: "return the actual theme",
+  },
 };
 
 const manageArguments = () => {
@@ -24,7 +29,7 @@ const manageArguments = () => {
   return formatArgs;
 };
 
-module.exports = {
+export default config = {
   availableFlags,
   actions: manageArguments(),
 };

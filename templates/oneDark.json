@@ -1,14 +1,39 @@
 {
-  "colors": {
-    "background": "#1e2127",
-    "foreground": "#abb2bf",
-    "black": "#1e2127",
-    "red": "red",
-    "green": "#98c379",
-    "yellow": "#d19a66",
-    "blue": "#61afef",
-    "magenta": "#c678dd",
-    "cyan": "#56b6c2",
-    "white": "#e6efff"
+  "name": "OneDark",
+  "description": "OneDark scheme by Lalit Magant (http://github.com/tilal6991).",
+  "repository": "https://github.com/mmims/base16-psconsoletheme",
+  "background": "Black",
+  "foreground": "DarkCyan",
+  "popupBackground": "DarkGreen",
+  "popupForeground": "Gray",
+  "palette": {
+    "Black": "#282c34",
+    "DarkGray": "#353b45",
+    "DarkGreen": "#3e4451",
+    "DarkYellow": "#545862",
+    "DarkBlue": "#565c64",
+    "DarkCyan": "#abb2bf",
+    "Gray": "#b6bdca",
+    "White": "#c8ccd4",
+    "Red": "#e06c75",
+    "DarkRed": "#d19a66",
+    "Yellow": "#e5c07b",
+    "Green": "#98c379",
+    "Cyan": "#56b6c2",
+    "Blue": "#61afef",
+    "Magenta": "#c678dd",
+    "DarkMagenta": "#be5046"
+  },
+  "tokens": {
+    "Command": "Blue",
+    "Comment": "DarkYellow",
+    "Keyword": "Magenta",
+    "Member": "Blue",
+    "Number": "DarkRed",
+    "Operator": "Cyan",
+    "Parameter": "DarkRed",
+    "String": "Green",
+    "Type": "Yellow",
+    "Variable": "Red"
   }
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { actionsMethods } = require("./utils/commandActions");
+import { actionsMethods } from "./utils/commandActions";
 const { configFile } = require("./utils/configFiles");
 const { actions } = require("./utils/flags");
 if (!configFile.activeTemplate) throw new Error("No template set");
