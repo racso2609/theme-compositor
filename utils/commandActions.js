@@ -12,8 +12,10 @@ const getThemeColor = (colorName) => {
     configFile.templateFolder,
     configFile.activeTemplate + ".json"
   );
+
   const templateFile = getTemplateFile(templateUri);
-  const colorId = templateFile[colorName];
+  const colorId = templateFile[colorName] ?? colorName;
+
   return templateFile.palette[colorId];
 };
 

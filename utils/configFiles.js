@@ -8,7 +8,7 @@ const configLocations = [
 
 const defaultFile = path.join(__dirname, "../", "config.json");
 const defaultTemplateFolder = path.join(__dirname, "..", "templates");
-const defaultTemplate = "default";
+const defaultTemplate = "oneDark";
 
 const validateConfigFile = (file) => {
   if (!file) {
